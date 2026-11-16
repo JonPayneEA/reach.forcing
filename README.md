@@ -39,7 +39,7 @@ operational_rain(rain, weights = c(A = 0.6, B = 0.4), h19 = c(2, 2, 2, 5),
 
 Catchment totals by source, model-free event uncertainty and calibration weights, the challenger
 weightings, the rain error model and ensembles, and the export bundle for pdmS7. The design is
-in the plan *Rainfall inputs and uncertainty: an end-to-end plan*.
+in the plan, [Rainfall inputs and uncertainty: an end-to-end plan](docs/plan/).
 
 ## Installation
 
