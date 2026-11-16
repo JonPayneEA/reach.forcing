@@ -26,6 +26,7 @@ reach.forcing fetches nothing itself: every download goes through `reach.io`.
 | `daily_agreement()` | Daily agreement with neighbours and H19: hit and false-alarm rates, dry-while-wet and wet-while-dry days by month, bias by band of daily total |
 | `timing_offset()` | The lag at which a gauge best matches its H19 pixel: clock and summer-time errors |
 | `temperature_bands()` | Gauge against H19 by band of air temperature: the evidence for the cold-weather switch |
+| `event_uncertainty()` | Each event's rain uncertainty without a model (source spread, ensemble range, runoff ratio and its range, season and wetness envelope, timing) and its use in calibration: full weight, a lower weight, exclusion or review |
 
 ```r
 library(reach.forcing)
@@ -37,7 +38,7 @@ operational_rain(rain, weights = c(A = 0.6, B = 0.4), h19 = c(2, 2, 2, 5),
 
 ## What comes next
 
-Catchment totals by source, model-free event uncertainty and calibration weights, the challenger
+Catchment totals by source, the challenger
 weightings, the rain error model and ensembles, and the export bundle for pdmS7. The design is
 in the plan, [Rainfall inputs and uncertainty: an end-to-end plan](docs/plan/).
 
