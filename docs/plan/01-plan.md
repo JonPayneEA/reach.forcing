@@ -1,6 +1,6 @@
 # Rainfall inputs and uncertainty: an end-to-end plan
 
-Nov 14, 2026 · @Jonathan Payne
+14 November 2026
 
 ## Summary
 
