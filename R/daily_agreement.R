@@ -25,8 +25,8 @@
 #'   flagged for any month with more than `per_month`.
 #' - `wet_while_dry`: days the gauge exceeds `heavy` while the neighbours (and H19) record
 #'   under `dry`; flagged likewise.
-#' - `bias_<band>`: the median gauge / neighbours on days in each band of the neighbours'
-#'   total; flagged outside `band_limits`.
+#' - `bias_<band>`: the median ratio of gauge to neighbours on days in each band of the
+#'   neighbours' total; flagged outside `band_limits`.
 #'
 #' A day is wet at `wet` mm or more. Days missing at the gauge or the neighbours are left out;
 #' a missing H19 value does not stop a day counting.

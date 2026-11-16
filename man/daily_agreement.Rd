@@ -60,8 +60,8 @@ below \code{min_hit}.
 flagged for any month with more than \code{per_month}.
 \item \code{wet_while_dry}: days the gauge exceeds \code{heavy} while the neighbours (and H19) record
 under \code{dry}; flagged likewise.
-\item \verb{bias_<band>}: the median gauge / neighbours on days in each band of the neighbours'
-total; flagged outside \code{band_limits}.
+\item \verb{bias_<band>}: the median ratio of gauge to neighbours on days in each band of the
+neighbours' total; flagged outside \code{band_limits}.
 }
 
 A day is wet at \code{wet} mm or more. Days missing at the gauge or the neighbours are left out;
