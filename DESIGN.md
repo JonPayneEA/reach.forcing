@@ -44,7 +44,7 @@ reach.forcing fetches nothing and sets no QC flags. It reads checked series and 
 | Step | Functions | Status |
 |---|---|---|
 | 1 | `operational_rain()`, `gauge_weights()`, `longterm_ratios()` | Done |
-| 2 | Source comparisons: monthly and annual ratios, drift and breaks, daily agreement, sub-daily timing and temperature bands, catchment totals | Next |
+| 2 | Source comparisons: `ratio_checks()`, `daily_agreement()`, `timing_offset()`, `temperature_bands()`; catchment totals by source still to come | Mostly done |
 | 3 | Event uncertainty: source spread, ensemble rain range, runoff ratio range, seasonal envelope, timing; calibration weights and exclusions | |
 | 4 | Challenger weightings: SAAR-scaled, cross-validated, redrawn on failure; `compare_weightings()` | |
 | 5 | Rain error model and ensembles | |
