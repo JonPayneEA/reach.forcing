@@ -1,7 +1,7 @@
 # reach.forcing design
 
 The parts of the rainfall inputs plan that govern this package. The full plan, with processes,
-data build and the explorer specification, is kept with the Flood Forecast Modelling team.
+source comparisons, data build and the explorer specification, is in [docs/plan](docs/plan/).
 
 ## Scope
 
