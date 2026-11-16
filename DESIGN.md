@@ -45,7 +45,7 @@ reach.forcing fetches nothing and sets no QC flags. It reads checked series and 
 |---|---|---|
 | 1 | `operational_rain()`, `gauge_weights()`, `longterm_ratios()` | Done |
 | 2 | Source comparisons: `ratio_checks()`, `daily_agreement()`, `timing_offset()`, `temperature_bands()`; catchment totals by source still to come | Mostly done |
-| 3 | Event uncertainty: source spread, ensemble rain range, runoff ratio range, seasonal envelope, timing; calibration weights and exclusions | |
+| 3 | Event uncertainty: `event_uncertainty()`; pdmS7's event objective still needs a weight per event to use it | Done here |
 | 4 | Challenger weightings: SAAR-scaled, cross-validated, redrawn on failure; `compare_weightings()` | |
 | 5 | Rain error model and ensembles | |
 | 6 | The export bundle for pdmS7, with provenance | |

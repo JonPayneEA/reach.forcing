@@ -1,5 +1,9 @@
 # reach.forcing 0.0.0.9000
 
+- `event_uncertainty()` measures each event's rain uncertainty before calibration, without a
+  model, and gives it a use: excluded when quick flow exceeds even the highest plausible rain,
+  sent for review when its runoff ratio is unusual for its season and wetness or its timing is
+  off, and otherwise weighted by how far the rain sources agree.
 - Source comparisons: `ratio_checks()` (typical ratio with a bootstrap interval over water
   years, spread, winter against summer, Sen's trend and Pettitt's change point in the annual
   ratio), `daily_agreement()` (wet-day hit and false-alarm rates, dry-while-wet and
