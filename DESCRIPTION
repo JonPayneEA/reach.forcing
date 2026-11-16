@@ -1,0 +1,23 @@
+Package: reach.forcing
+Title: Model Forcing from Checked Rain Gauge, Radar and Gridded Data
+Version: 0.0.0.9000
+Authors@R: person("Jonathan", "Payne", email = "jonathan.payne@environment-agency.gov.uk",
+    role = c("aut", "cre"))
+Description: Turns checked hydrometric and meteorological data into the forcing that
+    rainfall-runoff models are driven by. Rebuilds catchment rainfall exactly as the
+    operational forecasting system makes it (fixed Thiessen weights scaled up when gauges
+    fail, a radar fallback, and a switch to radar below a temperature threshold), computes
+    Thiessen weights from gauge locations and catchment boundaries, and measures each gauge
+    against long-term references. Part of the reach.* family: data arrive through reach.io
+    and are checked by reach.validate; reach.forcing fetches nothing itself.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 4.1.0)
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/JonPayneEA/reach.forcing
+BugReports: https://github.com/JonPayneEA/reach.forcing/issues
+RoxygenNote: 7.3.3
